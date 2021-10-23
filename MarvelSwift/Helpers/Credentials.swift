@@ -7,6 +7,13 @@
 
 import SwiftUI
 
-let privateKey = "9a1e60fcdd62076f83f84cb47965148c680a9624"
-let publicKey = "eded993a2f76a0c8317f49b9873b57ba"
-//let hashKey = "483a51c6e0474f2028228ad4bec30b4c"
+//  Add your own public and private keys here to make API calls.
+//  You can generate the hash required for the API call either here
+//  in Swift code, or use any online generators.
+//  The usual pattern for generating a hash is (timestamp+privateKey+publicKey).
+//  For this project, I have generated timestamp using the Date().timeIntervalSince1970
+//  and converted it to a string to use it in the API call.
+
+let privateKey = ""
+let publicKey = ""
+//let hashKey = ""
